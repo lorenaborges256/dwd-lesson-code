@@ -22,5 +22,5 @@ print(numbers)
 # MODIFY
 # Given a list of words, get a list of words with at least 5 letters.
 words = ['apple', 'banana', 'kiwi', 'orange', 'fig']
-long_words = list(filter(lambda word: '''your code here'''))
+long_words = list(filter(lambda word: len(word) > 5, words))
 print(long_words)

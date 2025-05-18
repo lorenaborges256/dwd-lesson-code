@@ -10,7 +10,7 @@
 
 prices = [10.99, 5.49, 20.00]
 
-tax_price = list(map(lambda p: p * 1.20 , prices))
+tax_price = list(map(lambda p: f"${round(p * 1.20, 2)}" , prices))
 print(tax_price)
 
 # Exercise 2

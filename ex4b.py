@@ -6,3 +6,5 @@
 scores = [85, 92, 78, 60, 42, 95, 70, 53]
 
 
+credits = list(filter(lambda s: s>=70 , scores))
+print(credits)

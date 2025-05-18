@@ -7,7 +7,7 @@ def process_interaction(name, callback_func): # callback_func is the callback
     message = callback_func(name)
     print(message)
 
-process_interaction("Alice", greet)
+process_interaction("Alice", greet) #greet isn't called here, only referenced
 process_interaction("Bob", farewell)
 
 # MODIFY

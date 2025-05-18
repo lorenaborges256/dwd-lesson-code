@@ -14,8 +14,13 @@
 # Example 1: lambda function to calculate exponents
 # Note the absence of a name, and since it's a function, we can store it in a var.
 power = lambda base, exp: base ** exp
+# def power(base, exp):
+#     return base ** exp
+# Double-asterisk (**) means 'raise to' or 'to the power of'
+# power lambda could be declared like this def function^^^
+
 # Call the lambda just like any other function
-print(power(2, 3)) # 8
+print(power(2, 3)) # 8 # power has all lambda function
 
 # Example 2: Pass a lambda as a callback
 # This is the exact same process_interaction function we used earlier
